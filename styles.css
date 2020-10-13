@@ -7,7 +7,7 @@ body{
 }
 
 .container {
-    background-color: #ced0d1;
+    background-color: #f9f9f9;
     width: 1200px;
     margin: auto;
     border-radius: 5px;
@@ -16,6 +16,9 @@ body{
 #title {
     width: 255px;
     margin: auto;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 header {
@@ -83,6 +86,7 @@ strong, em{
 
 h2 {
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 #back{
@@ -111,10 +115,10 @@ h2 {
     float: left;
 }
 
-.header-col-1 h1 {
+/* .header-col-1 h1 {
     font-size: 80px;
     font-family: serif;
-}
+} */
 
 .header-col-2{
     float: right;
