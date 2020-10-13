@@ -1,0 +1,377 @@
+/***************************** GENERIC *****************************/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #041C44;
+    margin: auto;
+    line-height:20px;
+}
+
+.container {
+    background-color: #b8ceff;
+    width: 1200px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#title {
+    width: 255px;
+    margin: auto;
+}
+
+header {
+    height: 320px;
+    background-image: url(imagenes/header.png);
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.nav {
+    margin-right: 120px;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px solid #b293a3;
+    background-color: #b293a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+strong, em{
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.card {
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.card-content {
+    width: 960px;
+    margin: auto auto;
+    border: 1px solid #041C44;
+}
+
+.card-title {
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+}
+
+.card-image{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+#back{
+    position: fixed;
+    width: 1200px;
+    bottom: 40px;
+}
+
+#back a{
+    margin-right: 40px;
+    font-size: 0px;
+    height: 40px;
+    width: 40px;
+    float: right;
+    background-image: url(imagenes/chevron-up.png);
+    background-repeat: no-repeat;
+}
+/***************************** GENERIC *****************************/
+
+
+
+/***************************** CARD 1 *****************************/
+.header-col-1 {
+    width: 600px;
+    height: 320px;
+    float: left;
+}
+
+.header-col-1 h1 {
+    font-size: 80px;
+    font-family: serif;
+}
+
+.header-col-2{
+    float: right;
+    width: 600px;
+}
+
+.header-col-2-content{
+    position: fixed;
+    z-index: 100;
+}
+
+#card-1-content {display: flex;}
+
+#card-1 {
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+.card-1-col-1{
+    padding: 30px 10px;
+    margin-left: 20px;
+}
+
+.card-1-col-2{
+    padding: 30px 10px;
+    margin-right: 20px;
+}
+/***************************** CARD 1 *****************************/
+
+
+
+/***************************** CARD 2 *****************************/
+#card-2{
+    background-color: darkgrey;
+    padding-bottom: 20px;
+}
+
+.card-2-subtitle {
+    font-size: 24px;
+    margin: 0px;
+    PADDING: 25px;
+    margin-left: 120px;
+}
+
+.card-2-content-subtitle {
+    width: 960px;
+    margin: auto;
+    height: 470px;
+    border: 1px solid;
+    padding: 20px 0px;
+}
+
+.card-2-content {
+    width: 650px;
+    margin: auto;
+}
+
+.card-2-content p {
+    margin: 0px;
+}
+
+.card-2-col-1 {
+    float: left;
+    width: 320px;
+    margin-top: 0px;
+}
+
+.card-2-col-2 {
+    float: right;
+    width: 320px;
+}
+/***************************** CARD 2 *****************************/
+
+
+
+/***************************** CARD 3 *****************************/
+#card-3 {
+    background-color: #7e8fa3;
+    padding-bottom: 20px;
+}
+
+.card-3-content {
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+.card-3-content p {
+    width: 280px;
+    height: 340px;
+    float: right;
+    padding: 30px;
+    margin: 0px;
+}
+/***************************** CARD 3 *****************************/
+
+
+
+/***************************** CARD 4 *****************************/
+#card-4 {
+    background-color: #9994bc;
+    padding: 20px;
+}
+
+.card-4-content {
+    padding-top: 20px;
+}
+
+.card-4-col-1 {
+    display: inline-block;
+    width: 303px;
+}
+
+.card-4-col-2 {
+    width: 303px;
+    float: right;
+}
+
+.card-4-text {
+    width: 630px;
+    margin: auto auto;
+}
+/***************************** CARD 4 *****************************/
+
+
+
+/***************************** CARD 5 *****************************/
+#card-5 {
+    padding: 20px;
+    background-color: gainsboro;
+    color: black;
+}
+
+.card-5-fila {
+    display: flex;
+    padding: 20px;
+}
+
+.card-5-fila p {
+    width: 300px;
+    float: right;
+}
+
+.card-5-text {
+    margin: auto auto;
+}
+/***************************** CARD 5 *****************************/
+
+
+
+/***************************** CARD 6 *****************************/
+#card-6 p{
+    width: 250px;
+    margin: auto;
+    color: white;
+}
+
+#card-6-content{
+    margin-bottom: 20px;
+}
+
+.card-6-col {
+    width: 300px;
+    padding: 10px;
+    margin-top: 45px;
+    display: table-cell;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container:hover .card-6-text{
+    opacity: .8;
+}
+
+.card-6-text{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-color: black;
+}
+
+.card-6-title {
+    text-align: center;
+    color: white;
+}
+/***************************** CARD 6 *****************************/
+
+
+
+/***************************** CARD 7 *****************************/
+#card-7 {
+    background-color: #3a4270;
+    color: white;
+    height: fit-content;
+    background-image: url(imagenes/marmol.jpg);
+}
+
+#card-7-title h2{
+    font-size: 30px;
+    color: black;
+}
+
+#card-7-title {
+    height: 20px;
+}
+
+.card-7-picture {
+    padding: 20px;
+}
+
+#card-7-content {
+    display: flex;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.card-7-col {
+    width: 470px;
+    margin: auto;
+    color: black;
+}
+
+.card-7-col li{
+    list-style: none;
+}
+/***************************** CARD 7 *****************************/
+
+
+
+/***************************** CARD 8 *****************************/
+#card-8{
+    background-color: black;
+    height: 100px;
+}
+
+#card-8-content{
+    border: none;
+}
+
+#card-8-content li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#card-8-content ul{
+    width: fit-content;
+    margin: auto;
+}
+
+.card-8-title {
+    color:beige;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+/***************************** CARD 8 *****************************/
