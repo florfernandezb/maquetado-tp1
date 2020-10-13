@@ -341,8 +341,42 @@ h2 {
     color: black;
 }
 
+.card-7-col ul {
+    margin-bottom: 0px;
+}
+
 .card-7-col li{
     list-style: none;
+}
+
+#social-media {
+    width: 300px;
+    bottom: 0px;
+}
+
+#social-linkedin {
+    font-size: 0px;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    display: inline-block;
+    background-image: url(imagenes/linkedin.png);
+    background-repeat: no-repeat;
+}
+
+#social-facebook {
+    font-size: 0px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url(imagenes/facebook.png);
+    background-repeat: no-repeat;
+}
+
+.social-media-container{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
 }
 /***************************** CARD 7 *****************************/
 
@@ -361,6 +395,7 @@ h2 {
 #card-8-content li {
     display: inline-block;
     margin-left: 20px;
+    color: black;
 }
 
 #card-8-content ul{
