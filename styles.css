@@ -28,11 +28,6 @@ header {
     border-radius: 5px;
 }
 
-.nav {
-    margin-right: 120px;
-    float: right;
-}
-
 .nav li {
     display: inline-block;
     margin-top: 40px;
@@ -115,18 +110,12 @@ h2 {
     float: left;
 }
 
-/* .header-col-1 h1 {
-    font-size: 80px;
-    font-family: serif;
-} */
-
 .header-col-2{
     float: right;
     width: 600px;
 }
 
 .header-col-2-content{
-    position: fixed;
     z-index: 100;
 }
 
